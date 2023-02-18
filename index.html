@@ -11,6 +11,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -19,10 +20,10 @@
       <div class ="weather-app-wrapper">
       <div class ="weather-app">
         <div class="overview">
-    <h1>Chicago</h1>
+    <h1 id="city"></h1>
     <ul>
       <li>Monday 9:30AM</li>
-      <li>Sunny</li>
+      <li id="description">Sunny</li>
     </ul>
     </div>
       <form>
@@ -32,7 +33,7 @@
   <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Clear" id="icon" />
   <div>
     <strong id="temperature"></strong
-    ><span class="units"> <strong>42</strong>°F | <a href="#">°C</a></span>
+    ><span class="units"> <strong id="temperature"></strong>°F | <a href="#">°C</a></span>
   </div>
 </div>
           </div>
