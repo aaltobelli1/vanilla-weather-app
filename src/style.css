@@ -53,3 +53,19 @@ li {
   font-size: 16px;
   top: -10px;
 }
+
+.weather-forecast {
+  margin-top: 20 px;
+  text-align: center;
+  color: rgb(33, 33, 33);
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temp-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
